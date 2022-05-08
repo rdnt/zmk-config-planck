@@ -1,3 +1,5 @@
+# zmk-config-planck
+
 This is my ZMK keymap for the OLKB Planck (rev 6.1).
 
 ### Flashing
