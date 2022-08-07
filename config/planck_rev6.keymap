@@ -16,7 +16,7 @@
  */
 
 #include <dt-bindings/led/led.h>
-&spi2 {
+&spi1 {
 	status = "okay";
 	pinctrl-0 = <&spi2_sck_pb13 &spi2_mosi_pb15>;
 	pinctrl-names = "default";
