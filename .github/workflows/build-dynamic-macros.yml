@@ -1,5 +1,0 @@
-on: [workflow_dispatch]
-
-jobs:
-  build:
-    uses: nickconway/zmk/.github/workflows/build-user-config.yml@dynamic-macro
