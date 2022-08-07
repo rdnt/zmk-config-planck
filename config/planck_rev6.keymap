@@ -4,14 +4,39 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/led/led.h>
-#include <dt-bindings/zmk/rgb.h>
-
-
+/dts-v1/;
 #include <st/f3/stm32f303Xc.dtsi>
 #include <st/f3/stm32f303c(b-c)tx-pinctrl.dtsi>
+
+#include <behaviors.dtsi>
+//#include <dt-bindings/zmk/keys.h>
+//#include <dt-bindings/led/led.h>
+//#include <dt-bindings/zmk/rgb.h>
+
+
+
+
+
+
+//&clk_hse {
+//	status = "okay";
+//	clock-frequency = <DT_FREQ_M(8)>;
+//};
+//
+//&pll {
+//	prediv = <1>;
+//	mul = <9>;
+//	clocks = <&clk_hse>;
+//	status = "okay";
+//};
+//
+//&rcc {
+//	clocks = <&pll>;
+//	clock-frequency = <DT_FREQ_M(72)>;
+//	ahb-prescaler = <1>;
+//	apb1-prescaler = <2>;
+//	apb2-prescaler = <1>;
+//};
 
 &spi2 {
 	status = "okay";
