@@ -14,7 +14,6 @@
             label = "ZM_dynamic-macro";
             compatible = "zmk,behavior-dynamic-macro";
             #binding-cells = <1>;
-			tap-ms = <5>;
 			wait-ms = <5>;
         };
     };
