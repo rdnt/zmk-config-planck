@@ -13,7 +13,7 @@
 		label = "WS2812";
 
 		/* SPI */
-		reg = <0>; /* ignored, but necessary for SPI bindings */
+		reg = <1>; /* ignored, but necessary for SPI bindings */
 		spi-max-frequency = <4000000>;
 
 		/* WS2812 */
