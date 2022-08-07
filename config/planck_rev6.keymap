@@ -20,7 +20,7 @@
 
 #include <dt-bindings/led/led.h>
 &spi1 {
-	compatible = "nordic,nrf-spim";
+	compatible = "planck,rev6", "st,stm32f303";
 	status = "okay";
 	mosi-pin = <6>;
 	// Unused pins, needed for SPI definition, but not used by the ws2812 driver itself.
