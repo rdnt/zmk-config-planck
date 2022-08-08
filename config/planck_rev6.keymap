@@ -15,7 +15,7 @@
             compatible = "zmk,behavior-dynamic-macro";
             #binding-cells = <1>;
 			no-output; // do not forward keystrokes to the host while recording
-			wait-ms = <10>; // disable so that recorded macros play back in the same speed they were recorded at
+			//wait-ms = <10>; // disable so that recorded macros play back in the same speed they were recorded at
         };
     };
 };
