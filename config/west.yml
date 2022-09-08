@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/nickconway
   projects:
     - name: zmk
-      remote: nickconway
-      revision: dynamic-macro
+      remote: nickconway # zmkfirmware
+      revision: dynamic-macro # main
       import: app/west.yml
   self:
     path: config
